@@ -87,7 +87,7 @@ main {
 }
 
 .background {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://www.nvidia.com/content/dam/en-zz/Solutions/about-nvidia/logo-and-brand/01-nvidia-logo-horiz-500x200-2c50-d@2x.png') center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/background.png') center/cover;
     height: 400px;
     display: flex;
     flex-direction: column;
@@ -111,7 +111,7 @@ main {
     max-width: 800px;
 }
 
-.section {
+.history {
     margin-bottom: 3rem;
     padding: 2rem;
     background-color: var(--text-light);
@@ -119,7 +119,7 @@ main {
     box-shadow: var(--shadow);
 }
 
-.section h2 {
+.history h2 {
     font-size: 2rem;
     margin-bottom: 1.5rem;
     color: var(--dark-bg);
@@ -242,7 +242,7 @@ main {
 
 .video-container {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 */
+    padding-bottom: 56.25%;
     height: 0;
     overflow: hidden;
     border-radius: 8px;
